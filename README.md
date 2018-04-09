@@ -13,7 +13,7 @@ The "run_analysis.R" Script does the following:
 It looks for the data in the "/UCI HAR Dataset" folder.
 Run the script with  
 
-1. source('~/run_analysis.R')
+1. source('run_analysis.R')
 2. run_analysis()
 
 For more Information about the script please refer to the comments in the script itself or the CodeBook.

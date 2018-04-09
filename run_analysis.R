@@ -1,4 +1,10 @@
 run_analysis <- function(){
+## load packages
+list.of.packages <- c("stringr", "dplyr")
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+library(stringr)
+library(dplyr)
 ## Read the txt-files for training and test Datasets
 test.data <- read.table("UCI HAR Dataset/test/X_test.txt")
 test.activities <- read.table("UCI HAR Dataset/test/y_test.txt")
