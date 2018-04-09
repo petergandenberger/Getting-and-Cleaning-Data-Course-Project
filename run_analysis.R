@@ -1,3 +1,4 @@
+run_analysis <- function(){
 ## Read the txt-files for training and test Datasets
 test.data <- read.table("UCI HAR Dataset/test/X_test.txt")
 test.activities <- read.table("UCI HAR Dataset/test/y_test.txt")
@@ -43,3 +44,5 @@ names(combined.data) <- str_to_lower(str_replace_all(names(combined.data), "\\(|
 
 ## calculate the mean of the variables by activity and subjectId
 combined.avg <- combined.data %>% group_by(activity, subjectid) %>% summarise_all(funs(mean))
+combined.avg
+}

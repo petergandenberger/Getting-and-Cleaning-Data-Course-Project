@@ -24,6 +24,7 @@ The data is initially from the "Human Activity Recognition Using Smartphones" Da
 
 ## Clean Data
 'data.frame':	180 obs. of  81 variables:
+
 Colum | Type | Values 
 --- | --- | ---
   **activity**               | Factor w/ 6 levels "LAYING","SITTING",.. | 1 1 1 1 1 1 1 1 1 1 ...
