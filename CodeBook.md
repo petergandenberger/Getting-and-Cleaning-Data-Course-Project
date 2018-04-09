@@ -1,8 +1,3 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
 # Code Book
 ## Initial Data
 The data is initially from the "Human Activity Recognition Using Smartphones" DataSet from "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones".
